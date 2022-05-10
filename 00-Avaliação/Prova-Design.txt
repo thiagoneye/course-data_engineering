@@ -1,0 +1,21 @@
+Questão 1. As funções do Design para Löbach (2001) são:
+(c) Prática, estética e simbólica.
+
+Questão 2. O Design Thinking pode ser considerado uma abordagem porque...
+(b) É flexível em suas etapas, métodos e ferramentas.
+
+Questão 3. Cartões de insight, mapa conceitual/mental, mapa da empatia e persona são:
+(a) Ferramentas que apoiam a etapa de imersão.
+
+Questão 4. O que é ESSENCIAL para uma sessão de ideação?
+(b) Suspender julgamentos.
+
+Questão 5. O protótipo NÃO busca:
+(c) Coletar dados acerca do usuário.
+
+Questão 6. São etapas do Design Sprint:
+(a) Entender/definir; Divergir; Decidir; Prototipar; Validar.
+
+Questão 7. Marque as opções corretas:
+(a) Design Thinking é uma abordagem que precisa ser utilizada de forma colaborativa.
+(c) Design Sprint ajuda a acelerar o desenvolvimento de um artefato/serviço.

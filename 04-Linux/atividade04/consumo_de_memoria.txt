@@ -1,0 +1,5 @@
+2022-05-08, 16:59:54, /usr/lib/firefox/firefox, 10.1 MD
+2022-05-08, 16:59:54, /usr/bin/gnome-shell, 6.9 MD
+2022-05-08, 16:59:54, /usr/lib/firefox/firefox, 4.7 MD
+2022-05-08, 16:59:54, /usr/lib/firefox/firefox, 4.1 MD
+2022-05-08, 16:59:54, /usr/lib/xorg/Xorg, 3.2 MD

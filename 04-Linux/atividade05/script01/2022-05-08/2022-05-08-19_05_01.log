@@ -1,0 +1,5 @@
+11.2 /usr/lib/firefox/firefox -new-window
+ 7.7 /usr/bin/gnome-shell
+ 4.6 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 8205 -prefMapSize 247903 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2479 true tab
+ 3.4 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 2.9 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 247903 -jsInitLen 277748 -parentBuildID 20220330194208 -appDir /usr/lib/firefox/browser 2479 true tab

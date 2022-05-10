@@ -1,0 +1,7 @@
+total 20K
+drwxrwxr-x 3 thiago thiago 4,0K abr 28 21:05 .
+drwxrwxr-x 4 thiago thiago 4,0K abr 28 20:31 ..
+-rwxrwxr-x 1 thiago thiago  519 abr 28 21:05 atividade02_thiago.sh
+drwxrwxr-x 2 thiago thiago 4,0K abr 28 20:58 thiago_backups_logs
+-rw-rw-r-- 1 thiago thiago    0 abr 28 21:05 thiago_log01.txt
+-rw-rw-r-- 1 thiago thiago 3,1K abr 28 21:05 thiago_log02.txt
