@@ -102,11 +102,11 @@ As etapas não são engessadas e, a depender do resultado do teste e iteração,
 
 #### Reenquadramento
 
-** Definição:** É examinar problemas ou questões não resolvidas em uma empresa sob diferentes perspectivas e diversos ângulos, permitindo, assim, desconstruir crenças e suposições dos stakeholders, e quebrar seus padrões de pensamento, ajudando-os a mudar paradigmas dentro da empresa e, com isso, dar o primeiro passo para alcançar soluções inovadoras.
+**Definição:** É examinar problemas ou questões não resolvidas em uma empresa sob diferentes perspectivas e diversos ângulos, permitindo, assim, desconstruir crenças e suposições dos stakeholders, e quebrar seus padrões de pensamento, ajudando-os a mudar paradigmas dentro da empresa e, com isso, dar o primeiro passo para alcançar soluções inovadoras.
 
-** Momento de utilização:** Como um problema não pode ser resolvido com o mesmo tipo de pensamento que o criou, o reenquadramento deve ser usado como primeira etapa para geração de soluções inovadoras.
+**Momento de utilização:** Como um problema não pode ser resolvido com o mesmo tipo de pensamento que o criou, o reenquadramento deve ser usado como primeira etapa para geração de soluções inovadoras.
 
-** Aplicação:** Acontece em ciclos de captura, transformação e preparação, que se repetem até que seja alcançado o objetivo de estimular os envolvidos a enxergarem o problema sobre diferentes óticas, criando um novo entendimento do contexto para levar à identificação de caminhos inovadores.
+**Aplicação:** Acontece em ciclos de captura, transformação e preparação, que se repetem até que seja alcançado o objetivo de estimular os envolvidos a enxergarem o problema sobre diferentes óticas, criando um novo entendimento do contexto para levar à identificação de caminhos inovadores.
 
 #### Pesquisa Exploratória
 
