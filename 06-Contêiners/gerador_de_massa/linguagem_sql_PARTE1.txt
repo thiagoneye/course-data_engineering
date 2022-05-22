@@ -1,0 +1,248 @@
+﻿-----------------------------------------------------------------------------
+# DDL
+## MYSQL
+
+
+CREATE TABLE FACULDADE;
+
+
+https://dev.mysql.com/doc/refman/8.0/en/create-database.html
+
+
+## POSTGRES
+
+
+CREATE TABLE FACULDADE;
+
+
+https://www.postgresql.org/docs/current/sql-createdatabase.html
+
+
+
+
+## MARIADB / MYSQL
+Conecte no banco que você criou utilizando o comando :
+
+
+USE FACULDADE;
+
+
+
+
+## POSTGRES
+Conecte no banco que você criou utilizando o comando :
+
+
+\c FACULDADE;
+
+
+
+
+## MARIADB / MYSQL
+
+
+CREATE TABLE FUNCIONARIO (
+    CODIGO_FUNCIONARIO INT AUTO_INCREMENT,
+    NOME_FUNCIONARIO VARCHAR(255) NOT NULL,
+    DATA_ADMISSAO DATE NOT NULL,
+    DATA_DEMISSAO DATE
+    PRIMARY KEY (CODIGO_FUNCIONARIO)
+ );
+
+
+ CREATE TABLE TITULACAO (
+    CODIGO_TITULACAO INT AUTO_INCREMENT,
+    NOME_TITULACAO VARCHAR(25) NOT NULL,
+    DESCRICAO_TITULACAO VARCHAR(255),
+    PRIMARY KEY (CODIGO_TITULACAO)
+ );
+
+
+https://mariadb.com/kb/en/create-table/
+
+
+A seguir execute o comando abaixo:
+
+
+SHOW TABLES;
+
+
+Mais um exemplo:
+
+
+CREATE TABLE PROFESSOR (
+    CODIGO_FUNCIONARIO INT,
+    MATRICULA_PROFESSOR INT NOT NULL,
+    CODIGO_TITULACAO INT,
+    PRIMARY KEY (CODIGO_FUNCIONARIO, MATRICULA_PROFESSOR),
+    FOREIGN KEY (CODIGO_TITULACAO)
+    REFERENCES TITULACAO(CODIGO_TITULACAO)
+);
+
+
+
+
+
+
+## POSTGRES
+
+
+https://www.postgresql.org/docs/current/ddl-basics.html
+
+
+CREATE TABLE FUNCIONARIO (
+ CODIGO_FUNCIONARIO INTEGER CONSTRAINT PK_CODIGO_FUNCIONARIO PRIMARY KEY,
+     NOME_FUNCIONARIO VARCHAR(255) NOT NULL,
+    DATA_ADMISSAO DATE NOT NULL,
+    DATA_DEMISSAO DATE
+);
+
+
+CREATE SEQUENCE FUNCIONARIO_SEQ
+  start 1000
+  increment 4;
+
+
+
+
+CREATE TABLE TITULACAO (
+ CODIGO_TITULACAO INTEGER CONSTRAINT PK_CODIGO_TITULACAO PRIMARY KEY,
+ NOME_TITULACAO VARCHAR(25) NOT NULL,
+ DESCRICAO_TITULACAO VARCHAR(255)
+);
+
+
+
+
+CREATE SEQUENCE TITULACAO_SEQ
+  start 1
+  increment 1;
+
+
+
+
+
+
+CREATE TABLE PROFESSOR (
+    CODIGO_FUNCIONARIO INTEGER NOT NULL,
+    MATRICULA_PROFESSOR INTEGER NOT NULL,
+    CODIGO_TITULACAO INTEGER,
+    PRIMARY KEY (CODIGO_FUNCIONARIO, MATRICULA_PROFESSOR),
+    FOREIGN KEY (CODIGO_TITULACAO)
+    REFERENCES TITULACAO(CODIGO_TITULACAO)
+);
+
+
+
+
+CREATE SEQUENCE PROFESSOR_SEQ
+  start 2000
+  increment 5;
+
+
+
+
+  ## MARIADB / MYSQL
+
+
+  CREATE DATABASE DUMMY
+
+
+  USE DUMMY;
+
+
+  CREATE TABLE DUMMY_DUMMY (
+      CODIGO_DUMMY INT
+  );
+
+
+
+
+  ALTER TABLE DUMMY_DUMMY
+  ADD COLUMN DUMMY_COLOR VARCHAR(50);
+
+
+  DROP TABLE DUMMY_DUMMY;
+
+
+  DROP DATABASE DUMMY_DUMMY;
+
+
+  ## POSTGRES
+
+
+  CREATE DATABASE DUMMY
+
+
+  \c DUMMY
+
+
+  CREATE TABLE DUMMY_DUMMY (
+      CODIGO_DUMMY INT
+  );
+
+
+
+
+  ALTER TABLE DUMMY_DUMMY
+  ADD COLUMN DUMMY_COLOR VARCHAR(50);
+
+
+
+
+  DROP TABLE DUMMY_DUMMY;
+
+
+  DROP DATABASE DUMMY_DUMMY;
+
+
+
+
+
+
+  ## MARIADB / MYSQL
+
+
+  
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('Jedi Master', 'Aquele que dominou a forca');
+ 
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('Doutor', 'Aquele que fez doutorado');
+ 
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('Mestre', 'Quem obteve esse grau por concluir um mestrado: mestre em Letras.');
+ 
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('Especialista', 'Que se dedica exclusivamente ao estudo ou à prática de uma ciência.');
+ 
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('Bacharel', 'Aquele obteve um diploma num curso de bacharelado.');
+ 
+ INSERT INTO TITULACAO (NOME_TITULACAO, DESCRICAO_TITULACAO) VALUES ('TecnólLLogo', 'Especialista em tecnologia.');
+
+
+
+
+ UPDATE TITULACAO SET NOME_TITULACAO = 'Tecnologo' where CODIGO_TITULACAO = 7;
+
+
+ DELETE FROM TITULACAO WHERE NOME_TITULACAO = 'Jedi Master';
+
+
+  ## POSTGRES
+
+
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Jedi Master', 'Aquele que dominou a força');
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Doutor', 'Aquele que fez doutorado');
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Mestre', 'Quem obteve esse grau por concluir um mestrado: mestre em Letras.');
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Especialista', 'Que se dedica exclusivamente ao estudo ou à prática de uma ciência, uma arte, uma profissão.');
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Bacharel', 'Aquele obteve um diploma num curso de bacharelado.');
+
+
+insert into titulacao values (nextval('titulacao_seq'), 'Tecnólogo', 'Especialista em tecnologia.');

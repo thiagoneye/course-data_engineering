@@ -1,0 +1,22 @@
+version: '3.1'
+services:
+  firstservice:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=rennerroot
+  secondservice:
+    image: postgres
+    environment:
+      - POSTGRES_PASWORD=rennerroot
+  thirdservice:
+    image: nginx
+    ports:
+      - 8080:80
+  fourthservice:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=rennerroot
+  fifthservice:
+    image: mariadb
+    environment:
+      - MARIADB_PASSWORD=rennerroot
