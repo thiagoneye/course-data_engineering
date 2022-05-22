@@ -14,10 +14,10 @@ O Programa de Formação em Dados Lojas Renner S.A. é uma experiência gratuita
 
 - Jornada de Formação (Engenharia de Dados)
 
-4. Sistemas Distribuídos
-5. Armazenamento Distribuído
-6. Banco de Dados
-7. Cloud Computing
+4. Linux
+5. Bancos de Dados
+6. Cloud Computing
+7. Contêineres
 
 ## Outros
 
